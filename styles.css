@@ -261,3 +261,44 @@ section {
         width: 100%;
     }
   }
+
+  #experience h2{
+    color: #94a1b2;
+    font-size: 40px;
+    padding-bottom: 3%;
+  }
+
+  #experience .ggc-experience, .wb-experience {
+    color: #94a1b2;
+    text-align: left;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+ 
+
+  #achievements {
+    background-color: var(--secondary);
+    color: var(--neutral);
+    padding-left: 5%;
+  }
+
+  #achievements #certifications, #skills {
+    padding-right: 10%;
+    text-align: left;
+    
+  }
+
+  .justify-content {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .left {
+    flex-grow: 1;
+  }
+  
+  .right {
+    white-space: nowrap;
+    margin-left: 10px;
+  }
+  
